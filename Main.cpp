@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream> 
-#include <Windows.h>
+//#include <Windows.h>
 #include <regex>
 
 using namespace std;
@@ -141,7 +141,8 @@ void countingSyllables() {
 }
 
 int main() {
-	setlocale(LC_ALL, "Russia");
+
+	setlocale(LC_ALL, "Russian");
 
 	developerInformation();
 	formattingText();
