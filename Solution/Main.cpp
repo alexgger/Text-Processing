@@ -150,5 +150,7 @@ int main() {
 	searchWord();
 	countingSyllables();
 
+	system("pause");
+
 	return 0;
 }
