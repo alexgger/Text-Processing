@@ -141,6 +141,7 @@ void countingSyllables() {
 }
 
 int main() {
+	setlocale(LC_ALL, "Russia");
 
 	developerInformation();
 	formattingText();
